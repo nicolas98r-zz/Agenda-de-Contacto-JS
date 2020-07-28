@@ -28,6 +28,9 @@
 }
 
 .content-form {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 65%;
     background-color: #f0ece3;
 }
 
@@ -58,6 +61,23 @@
     font-size: 14px;
 }
 
-.content-form input[type=button]:hover{
+.content-form input[type=button]:hover {
     background-color: #c7b198;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 5px auto 5px auto;
+    width: 65%;
+    text-align: center;
+}
+
+.content-table th {
+    background-color: #c7b198;
+    border-bottom: solid 2px #c7b198;
+}
+
+.content-table td {
+    border-bottom: solid 1px #c7b198;
+    background-color: #f0ece3;
 }
